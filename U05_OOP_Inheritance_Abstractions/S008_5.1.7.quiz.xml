@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="6973797c-82cc-4808-9231-c0d40e353f14">
+  <scoring tries="2"/>
+  <markdown>Где может использоваться модификатор final?</markdown>
+  <question.choice id="compileRun" shuffle="true" multiple="true" maxScore="3">
+    <text>Тест — Выберите один или несколько вариантов из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">В объявлении метода.</item>
+    <item id="2" isCorrect="true">В объявлении параметра метода.</item>
+    <item id="3" isCorrect="true">В объявлении статического поля класса.</item>
+    <item id="4" isCorrect="true">В объявлении класса.</item>
+    <item id="5" isCorrect="true">В объявлении нестатического поля класса.</item>
+    <item id="6" isCorrect="true">В объявлении локальной переменной.</item>
+    <item id="7" isCorrect="false">В объявлении конструктора.</item>
+  </question.choice>
+</slide.quiz>

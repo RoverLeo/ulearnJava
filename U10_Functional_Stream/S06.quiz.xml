@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="c2ab5a5c-7e52-401f-8b6d-4257f864ecf4">
+    <scoring tries="3"/>
+    <markdown>
+        Каким образом можно получить экземпляр функционального интерфейса?
+    </markdown>
+
+    <question.choice id="funcInst" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">объявить именованный класс, реализующий интерфейс, и создать экземпляр этого класса</item>
+        <item id="2" isCorrect="true">использовать лямбда-выражение</item>
+        <item id="3" isCorrect="true">использовать ссылку на нестатический метод</item>
+        <item id="4" isCorrect="false">использовать ссылку на деструктор</item>
+        <item id="5" isCorrect="true">использовать ссылку на конструктор</item>
+        <item id="6" isCorrect="true">объявить анонимный класс, реализующий интерфейс, и создать экземпляр этого класса</item>
+        <item id="7" isCorrect="true">использовать ссылку на статический метод</item>
+    </question.choice>
+</slide.quiz>
+

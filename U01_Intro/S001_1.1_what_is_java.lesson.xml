@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="1.1 Что такое Java, откуда она взялась и зачем нужна" id="f861d066-3134-469c-9df0-457abd33e1a2">
+  <markdown>
+        Видео-материалы первого модуля полностью
+        ([скачать](https://player.vimeo.com/external/140089536.hd.mp4?s=324c663df0fa0b0e22e55bd42bf4a56c&amp;profile_id=119))
+
+        Презентация ([скачать](files/module1.pdf))
+
+    </markdown>
+  <markdown>
+
+
+        ###1.1.1. Знакомство
+    </markdown>
+  <youtube>m_qjsI36zp8</youtube>
+  <markdown>
+
+
+        ###1.1.2. Немного рекламы (но все честно!)
+    </markdown>
+  <youtube>b3bA-sWr4y4</youtube>
+  <markdown>
+
+
+        ###1.1.3. Где используется Java
+    </markdown>
+  <youtube>cH41gWIHn-M</youtube>
+  <markdown>
+
+
+        ###1.1.4. Исторический экскурс
+    </markdown>
+  <youtube>6bttm0rVCfQ</youtube>
+  <markdown>
+
+        ###1.1.5. Джеймс Гослинг собственной персоной
+
+        В качестве бонуса можно посмотреть историческое видео от 1992-го года, в котором Джеймс Гослинг показывает
+        экспериментальный образец PDA Star7 с Дюком и будущей Java внутри.
+
+        Видео выложено на YouTube: [https://youtu.be/1CsTH9S79qI](https://youtu.be/1CsTH9S79qI)
+    </markdown>
+</slide>

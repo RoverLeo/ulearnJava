@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="3.1 Массивы" id="abd88130-647a-4ff1-89e5-dfec081da44b">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Здесь должен быть текст задачи
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S021.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru --class-path=./classpath/* ./S021.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="Задача 9.2" id="77b0587c-f297-40af-8dc6-0e5feb0f9814">
+  <scoring group="homework" passedTestsScore="0" codeReviewScore="6"/>
+  <defaultIncludeCodeFile>../_Code.java</defaultIncludeCodeFile>
+  <markdown>
+    [Описание задачи](https://github.com/naumen-student/ulearn-me-course-java/tree/master/09-java-generics-collections/task02)
+  </markdown>
+  <exercise.file>
+    <initialCode>вставьте ссылку на Pull Request</initialCode>
+    <hideExpectedOutput>true</hideExpectedOutput>
+    <hint>Используйте функцию гитхаба New pull request</hint>
+    <comment>Принято</comment>
+    <expected>github.com</expected>
+    <solution>Main</solution>
+  </exercise.file>
+</slide.exercise>

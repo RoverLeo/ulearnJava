@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="8044c70a-40fd-48a1-ac6e-0d89fda5ba74">
+  <scoring tries="5"/>
+  <markdown>В чем отличия java.io.File и java.nio.file.Path?</markdown>
+  <question.choice id="ioFilePath" multiple="true" shuffle="true" maxScore="3">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">File — это класс, Path — это интерфейс.</item>
+    <item id="2" isCorrect="false">Path — это класс, File — это интерфейс.</item>
+    <item id="3" isCorrect="true">Методы работы с ФС через объект Path при ошибках ввода-вывода бросают исключения; методы работы с File при ошибках возвращают false.</item>
+    <item id="4" isCorrect="false">Методы работы с ФС через объект File при ошибках ввода-вывода бросают исключения; методы работы с Path при ошибках возвращают false.</item>
+    <item id="5" isCorrect="true">File — это старый способ доступа к файловой системе, Path — это новый рекомендуемый способ.</item>
+    <item id="6" isCorrect="false">Path — это устаревший способ доступа к файловой системе, File — это новый рекомендуемый способ.</item>
+    <item id="7" isCorrect="true">Path допускает работу с файлами на виртуальных файловых системах, а File нет.</item>
+    <item id="8" isCorrect="false">File допускает работу с файлами на виртуальных файловых системах, а Path нет.</item>
+  </question.choice>
+</slide.quiz>
+

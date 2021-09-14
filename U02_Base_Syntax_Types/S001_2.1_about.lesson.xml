@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Базовый синтаксис Java. Часть 1" id="74052164-c524-41a6-85c2-acd30b0771a8">
+  <markdown>
+Видео-материалы этого и следующего модуля [полностью](https://www.youtube.com/watch?v=oaZqTPDIEbE)
+
+Презентация ([скачать](https://stepik.org/media/attachments/lesson/12759/module2.pdf))
+
++ О чем этот модуль
++ Примитивные и ссылочные типы
++ Тип boolean
++ Контрольный вопрос
++ Целочисленные типы
++ Тип char
++ Вещественные типы
++ Полезные классы: Math, BigInteger, BigDecimal
++ Вопрос
++ Вопрос
+  </markdown>
+</slide>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="9b3da749-150d-4ff3-979d-4db7853d3e43">
+  <scoring tries="2"/>
+  <markdown>Укажите преобразования типов, которые компилятор делает автоматически. Другими словами, для каких преобразований не требуется явно писать в программе оператор приведения типа?</markdown>
+  <question.choice id="basictypes" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">int -&gt; boolean</item>
+    <item id="2" isCorrect="true">char -&gt; int</item>
+    <item id="3" isCorrect="true">long -&gt; float</item>
+    <item id="4" isCorrect="false">float -&gt; long</item>
+    <item id="5" isCorrect="true">int -&gt; long</item>
+    <item id="6" isCorrect="true">char -&gt; Character</item>
+    <item id="7" isCorrect="false">String -&gt; int</item>
+    <item id="8" isCorrect="false">byte -&gt; char</item>
+  </question.choice>
+</slide.quiz>

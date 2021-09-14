@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="Задача 12.1" id="dafbd678-43f2-4f29-a62f-2055da499df7">
+    <scoring group="homework" passedTestsScore="0" codeReviewScore="20"/>
+    <defaultIncludeCodeFile>../_Code.java</defaultIncludeCodeFile>
+    <markdown>
+        ###Задание:
+
+        Протестируйте статический метод Integer.decode(String nm) из стандартной библиотеки Java.
+
+        1. Изучите документацию к методу и код метода.
+
+        2. Найдите все возможные ветвления в коде метода и какие аргументы приводят к заходу в эти ветвления.
+        
+        3. Напишите тесты (не менее 8) так, чтобы покрыть ими все строки кода метода.
+           То есть чтобы при выполнении тестов каждая строка метода была выполнена хотя бы 1 раз.
+
+        Выложите код тестов на github и вставьте в поле ссылку на него.
+
+    </markdown>
+    <exercise.file>
+        <initialCode>https://github.com/username/javatech111</initialCode>
+        <hideExpectedOutput>true</hideExpectedOutput>
+        <comment>Принято</comment>
+        <expected>github.com</expected>
+        <solution>Main</solution>
+    </exercise.file>
+</slide.exercise>

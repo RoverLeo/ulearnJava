@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="82719302-a0d7-43f3-a0f9-67b6e8d482e2">
+    <scoring tries="2"/>
+    <markdown>
+        Каким образом методы read() класса InputStream сигнализируют о достижении конца входного потока?
+    </markdown>
+    <question.choice id="ioReadEnd" multiple="false" shuffle="true" maxScore="1">
+        <text>Выберите один вариант из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">Возвращают -1.</item>
+        <item id="2" isCorrect="false">Возвращают специальное значение EOF.</item>
+        <item id="3" isCorrect="false">Возвращают null.</item>
+        <item id="4" isCorrect="false">Бросают исключение java.io.EndOfStreamException.</item>
+    </question.choice>
+</slide.quiz>
+

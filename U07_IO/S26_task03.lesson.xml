@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="7.3 ImageResizer" id="d3b7a8ad-cc1d-4ac1-b9f3-abf69e0f019e">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Необходимо реализовать два метода
+
+    * `concatenate` - дописывает левую строку к правой
+
+    * `isNumeric` выводит true, если строка - это целое число
+
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S26.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea --class-path=./classpath/* ./S26.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

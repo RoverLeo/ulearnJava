@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="3d8d35c5-26d0-46a3-a5aa-b1fb3e0b62ba">
+    <scoring tries="3"/>
+    <markdown>
+        Какие стримы есть в стандартной библиотеке?
+    </markdown>
+
+    <question.choice id="funcInst" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="false">FloatStream</item>
+        <item id="2" isCorrect="true">IntStream</item>
+        <item id="3" isCorrect="false">CharStream</item>
+        <item id="4" isCorrect="true">Stream</item>
+        <item id="5" isCorrect="true">LongStream</item>
+        <item id="6" isCorrect="true">DoubleStream</item>
+        <item id="7" isCorrect="false">ByteStream</item>
+        <item id="8" isCorrect="false">StringStream</item>
+    </question.choice>
+</slide.quiz>
+

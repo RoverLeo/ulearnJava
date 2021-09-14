@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="8a342e44-e7d5-4ed6-8a1c-84f7885165cf">
+  <scoring tries="2"/>
+  <markdown>Допустим, вы пишете класс Example в пакете com.example.java. Классы из каких пакетов вы можете использовать в классе Example по их коротким именам без явного import'а?</markdown>
+  <question.choice id="compileRun" shuffle="true" multiple="true" maxScore="1">
+    <text>Тест — Выберите один или несколько вариантов из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">java.util</item>
+    <item id="2" isCorrect="false">пакет по умолчанию</item>
+    <item id="3" isCorrect="false">все подпакеты org.stepic.java.example</item>
+    <item id="4" isCorrect="true">com.example.java</item>
+    <item id="5" isCorrect="true">java.lang</item>
+  </question.choice>
+</slide.quiz>

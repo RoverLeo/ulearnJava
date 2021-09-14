@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="3.3 Список дел" id="3e415628-3273-4a9e-831d-04924981fdd7">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Разработайте программу — список дел, который управляется командами в консоли. Команды: LIST, ADD, EDIT, DELETE.
+    Для работы с данными списка дел в проекте находится класс TodoList, который должен отвечать за хранение и работу со списком дел. Реализуйте все методы.
+    В классе Main напишите код для реализации взаимодействия с пользователем через ввод команд в консоль.
+
+    Принцип работы команд: 
+    * LIST — выводит дела с их порядковыми номерами;
+    * ADD — добавляет дело в конец списка или дело на определенное место сдвигая остальные дела вперёд, если указать номер;
+    * EDIT — заменяет дело с указанным номером, если указан несуществующий индекс - ничего не делать;
+    * DELETE — удаляет дело из списка, если указан несуществующий индекс - ничего не делать.
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S019.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru -Dfile.encoding=UTF-8 --class-path=./classpath/* ./S019.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="58d6e946-e3bb-4711-9cd4-08b409e3ee57">
+  <scoring tries="3"/>
+  <question.match id="levels" maxScore="3">
+    <text>Отсортируйте уровни детальности логгирования  (java.util.logging.Level) от самого детального к самому краткому.</text>
+    <match id="1">
+      <fixed>1</fixed>
+      <movable>ALL</movable>
+    </match>
+    <match id="2">
+      <fixed>2</fixed>
+      <movable>FINEST</movable>
+    </match>
+    <match id="3">
+      <fixed>3</fixed>
+      <movable>FINER</movable>
+    </match>
+    <match id="4">
+      <fixed>4</fixed>
+      <movable>FINE</movable>
+    </match>
+    <match id="5">
+      <fixed>5</fixed>
+      <movable>CONFIG</movable>
+    </match>
+    <match id="6">
+      <fixed>6</fixed>
+      <movable>INFO</movable>
+    </match>
+    <match id="7">
+      <fixed>7</fixed>
+      <movable>WARNING</movable>
+    </match>
+    <match id="8">
+      <fixed>8</fixed>
+      <movable>SEVERE</movable>
+    </match>
+    <match id="9">
+      <fixed>9</fixed>
+      <movable>OFF</movable>
+    </match>
+  </question.match>
+</slide.quiz>

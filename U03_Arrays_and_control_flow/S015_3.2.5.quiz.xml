@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="72910c27-4b48-4551-8496-5e8e743f9c99">
+  <scoring tries="2"/>
+  <markdown>Значения каких типов могут использоваться в операторе switch?</markdown>
+  <question.choice id="compileRun" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">int</item>
+    <item id="2" isCorrect="false">float</item>
+    <item id="3" isCorrect="true">char</item>
+    <item id="4" isCorrect="false">long</item>
+    <item id="5" isCorrect="false">boolean</item>
+    <item id="6" isCorrect="true">String</item>
+  </question.choice>
+</slide.quiz>

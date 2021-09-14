@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="2.3 Правильный регистр" id="ab7adb1b-d339-4534-aea3-ab86155902bd">
+  <scoring group="homework" passedTestsScore="1" codeReviewScore="4"/>
+  <markdown>
+    Необходимо реализовать метод `getRevertString()`, который переворачивает строку и приводит её к нижнему регистру, а первую букву строки к верхнему регистру.
+
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S021.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru --class-path=./classpath/* ./S021.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Многопоточность. Теория" id="60618ac6-f790-47a3-8989-f105a49c13f6">
+    <markdown>
+
+        В предыдущих модулях вы уже сталкивались с тем, что приложение может выполнять несколько участков кода одновременно.
+        В этом модуле рассмотрим, как можно управлять параллельным выполнением кода и какие инструменты для этого есть в Java.
+
+        **Теоретические материалы по многопоточности:**
+
+        - [Понятие многопоточности](https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C).
+
+        - [Видео про многопоточность в Java](https://www.youtube.com/watch?v=dLDhB6SRXzw)
+
+        - [Вопросы и ответы](http://javastudy.ru/interview/concurrent/)
+
+        **Дополнительные материалы:**
+
+        - [Java Advanced. Введение в многопоточное программирование](https://youtu.be/vlUEqn_mCkc?t=765)
+
+        - [Java Advanced. Задачи и средства многопоточного программирования](https://www.youtube.com/watch?v=5AbZOykIpM0)
+        
+    </markdown>
+</slide>

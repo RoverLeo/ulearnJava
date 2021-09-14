@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Объявление класса" id="59c15d42-5de0-4ebd-8a1b-cf4d4d4eee29">
+  <markdown>
+    + Класс
+    + Вопрос
+    + Поля класса
+    + Конструкторы
+    + Вопрос
+    + Методы
+    + Immutable-классы. Вложенные классы
+    + Вопрос
+    + Перечисления
+    + Аннотации
+  </markdown>
+</slide>

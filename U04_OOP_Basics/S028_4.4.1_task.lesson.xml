@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="4.1 Классы" id="e2477932-3166-40c2-bfd7-6049581375f4">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Необходимо реализовать следующие классы:
+* класс `School`, в котором будут классы `Pupil`, `Teacher`. 
+* в классе `Pupil` поле имени, фамилии ученика, года обучения геттеры и конструктор, метод toString, имя и фамилия должны быть final. 
+* в классе `Teacher` указать ФИО преподавателя, предмет, который он преподает и его стаж работы, конструктор, метод toString.
+* в классе `School` реализовать методы прибытия ученика/учителя в школу, ухода из школы,функции печати в консоль, учеников и учителей находящихся в школе. 
+
+
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S028.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea --class-path=./classpath/* ./S028.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

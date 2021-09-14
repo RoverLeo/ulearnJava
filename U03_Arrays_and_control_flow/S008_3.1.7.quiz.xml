@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="854d95c0-66d5-40ec-b44a-d56ea8e17e53">
+  <scoring tries="2"/>
+  <markdown>Выберите выражения, которые дадут в качестве результата строку A12.</markdown>
+  <question.choice id="compileRun" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">'A' + "12"</item>
+    <item id="2" isCorrect="true">"A" + 12</item>
+    <item id="3" isCorrect="false">'A' + '1' + "2"</item>
+    <item id="4" isCorrect="true">"A" + ('\t' + '\u0003')</item>
+  </question.choice>
+</slide.quiz>

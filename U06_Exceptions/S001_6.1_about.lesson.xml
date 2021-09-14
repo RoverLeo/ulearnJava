@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Знакомство с исключениями" id="e54932e4-adae-4832-ab4c-836664c3ab6b">
+  <markdown>
+    Видео-материалы модуля [полностью](https://www.youtube.com/watch?v=c933nFNOz3w)
+
+    Презентация ([скачать](https://stepik.org/media/attachments/lesson/12772/module4.pdf))
+
+    + Способы возврата ошибки
+    + Знакомство с исключениями
+    + Класс Throwable
+    + Типы исключений
+    + Пример собственного типа исключения
+    + Вопрос
+  </markdown>
+</slide>

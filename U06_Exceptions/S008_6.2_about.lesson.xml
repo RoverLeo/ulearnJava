@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Обработка исключений. Try-catch" id="1eaebd9c-74ff-4b69-abe4-ddcfa20e3857">
+  <markdown>
+    + Ловим исключение
+    + Обрабатываем исключение
+    + Рекомендации по использованию исключений
+    + Вопрос
+    + Вопрос
+  </markdown>
+</slide>

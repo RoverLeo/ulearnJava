@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="8fd2fe0e-1444-48b4-9b36-305770c73ece">
+    <scoring tries="2"/>
+    <markdown>
+        Есть следующий код:
+    </markdown>
+    <code>
+        FileInputStream fileInputStream = new FileInputStream(file);
+        try (DataInputStream dataInputStream = new DataInputStream(fileInputStream)) {
+            // ...
+        }
+    </code>
+    <markdown>
+        Является ли проблемой то, что не вызван метод fileInputStream.close()? Почему?
+    </markdown>
+    <question.choice id="ioStreamClose" multiple="false" shuffle="true" maxScore="1">
+        <text>Выберите один вариант из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="false">Нет, т.к. FileInputStream не использует никаких системных ресурсов, которые надо освобождать.</item>
+        <item id="2" isCorrect="false">Да, т.к. пока этот FileInputStream не закрыт, мы не можем открыть новый FileInputStream.</item>
+        <item id="3" isCorrect="false">Да, т.к. это приведет к утечке ресурсов.</item>
+        <item id="4" isCorrect="true">Нет, т.к. DataInputStream в своем методе close() закроет InputStream, с которым работает.</item>
+    </question.choice>
+</slide.quiz>
+

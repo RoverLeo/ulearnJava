@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="Дополнительные задания" id="30b657db-1aa8-4280-9c08-a99a3acaf694">
+  <scoring group="homework" passedTestsScore="0" codeReviewScore="100"/>
+  <defaultIncludeCodeFile>../_Code.java</defaultIncludeCodeFile>
+  <markdown>
+    [Описания задач](https://github.com/naumen-student/ulearn-me-course-java/tree/master/practice)
+
+    Согласуйте семестровое задание с преподавателем и оформите решение в виде репозитория на github.
+  </markdown>
+  <exercise.file>
+    <initialCode>Вставьте сюда ссылку на репозиторий с семестровым</initialCode>
+    <hideExpectedOutput>true</hideExpectedOutput>
+    <hint>Используйте функцию гитхаба New pull request</hint>
+    <comment>Принято</comment>
+    <expected>github.com</expected>
+    <solution>Main</solution>
+  </exercise.file>
+</slide.exercise>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="310dbaa1-ddbf-42e1-9c5b-7f559bd8fe09">
+    <scoring tries="3"/>
+    <markdown>Укажите условия, необходимые для того, чтобы экземпляры класса можно было записывать в ObjectOutputStream и читать из ObjectInputStream. (Можно выбрать несколько вариантов.)</markdown>
+    <question.choice id="io2Object" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">Класс должен реализовывать интерфейс java.io.Serializable.</item>
+        <item id="2" isCorrect="false">В классе должны быть определены методы readObject(ObjectInputStream) и writeObject(ObjectOutputStream).</item>
+        <item id="3" isCorrect="false">Поля класса должны быть объявлены с модификатором transient.</item>
+        <item id="4" isCorrect="false">Класс должен быть финальным.</item>
+        <item id="5" isCorrect="false">В классе должен быть конструктор без параметров.</item>
+        <item id="6" isCorrect="false">Класс должен быть прописан в конфигурационном файле serialization.properties.</item>
+    </question.choice>
+</slide.quiz>
+

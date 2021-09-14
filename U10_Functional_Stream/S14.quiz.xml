@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="357c8caa-4484-4244-859b-a79158e65aed">
+    <scoring tries="3"/>
+    <markdown>
+        Выберите верные утверждения.
+    </markdown>
+
+    <question.choice id="funcInst" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">Стримы "одноразовые", т.е. после вызова терминальной операции стрим больше не пригоден к использованию.</item>
+        <item id="2" isCorrect="false">Стрим надо обязательно всегда закрывать, т.е. вызывать метод его close() или использовать в блоке try с ресурсами.</item>
+        <item id="3" isCorrect="false">Применение трансформаций к элементам стрима изменяет содержимое источника, откуда стрим берет элементы (например, коллекции или массива).</item>
+        <item id="4" isCorrect="false">Элементами стрима могут быть только объекты, стримы примитивов не разрешены.</item>
+        <item id="5" isCorrect="true">Стрим позволяет применять любое количество промежуточных операций. Все они запустятся только тогда, когда на стриме будет вызвана терминальная операция.</item>
+    </question.choice>
+</slide.quiz>
+

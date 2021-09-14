@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="57f1b886-c214-469e-be5c-abc64522db5e">
+    <scoring tries="3"/>
+    <markdown>
+        Предположим, у нас есть две переменных:
+    </markdown>
+    <code>
+        Collection&lt;?&gt; collection = ...;
+        Object object = ...;
+    </code>
+    <markdown>
+        Какие операции над collection допустимы?
+    </markdown>
+    <question.choice id="collectionMethods" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">collection.contains(object)</item>
+        <item id="2" isCorrect="true">collection.remove(object)</item>
+        <item id="3" isCorrect="false">collection.addAll(Arrays.asList(object))</item>
+        <item id="4" isCorrect="true">collection.iterator()</item>
+        <item id="5" isCorrect="true">collection.size()</item>
+        <item id="6" isCorrect="false">collection.add(object)</item>
+        <item id="7" isCorrect="true">collection.toArray()</item>
+        <item id="8" isCorrect="true">collection.clear()</item>
+    </question.choice>
+</slide.quiz>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="fbde1040-a90b-4bb2-bbcf-b7231a4605d2">
+  <scoring tries="2"/>
+  <markdown/>
+  <question.isTrue id="zeroLengthArray" answer="true" maxScore="1">
+    <text>Можно ли создать массив нулевой длины?</text>
+  </question.isTrue>
+</slide.quiz>

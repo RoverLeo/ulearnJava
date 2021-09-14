@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="2.2 Количество чётных цифр в числе" id="e26257bf-03e1-4213-afa3-3ce2016cf6c0">
+  <scoring group="homework" passedTestsScore="1" codeReviewScore="4"/>
+  <markdown>
+    Необходимо реализовать метод `getNumbers()`, который принимает на вход два числа и выводит количество четных цифр в их сумме.
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S020.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru --class-path=./classpath/* ./S020.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

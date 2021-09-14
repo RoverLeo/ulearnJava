@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="1.2.6 Первая задача на программирование. Простая :)" id="7f0e20cb-d617-4799-b2af-c01799590fd5">
+  <markdown>
+        Напишите программу, выводящую в консоль `It's alive! It's alive!`
+    </markdown>
+</slide>

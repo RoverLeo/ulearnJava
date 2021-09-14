@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="f8e7f2cd-1236-4465-ba62-50b1cb411c88">
+    <scoring tries="3"/>
+    <markdown>
+        Предположим, у нас есть параметризованный класс с методом someMethod:
+    </markdown>
+    <code>
+        public class Example&lt;X&gt; {
+          public void someMethod(Object obj) {
+            ...
+          }
+        }
+    </code>
+    <markdown>
+        Какие операции разрешены внутри метода? ("Разрешены" = "Компилятор скомпилирует")
+    </markdown>
+    <question.choice id="genericsOperations" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="false">Создание массива X</item>
+        <item id="2" isCorrect="false">Проверка (obj instanceof Optional&lt;x&gt;)</item>
+        <item id="3" isCorrect="false">Проверка (obj instanceof X)</item>
+        <item id="4" isCorrect="true">Получение экземпляра Optional&lt;x&gt; через Optional.empty()</item>
+        <item id="5" isCorrect="true">Приведение obj к типу X</item>
+        <item id="6" isCorrect="false">Создание экземпляра X</item>
+    </question.choice>
+</slide.quiz>

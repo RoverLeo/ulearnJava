@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="59b64bdc-c86d-4215-adcf-b3ff41ffc211">
+  <scoring tries="2"/>
+  <markdown>Какой модификатор доступа имеет конструктор без параметров, автоматически добавляемый компилятором для public-класса?</markdown>
+  <question.choice id="compileRun" shuffle="true" maxScore="1">
+    <text>Тест — Выберите один вариант из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">отсутствие модификатора (пакетный доступ)</item>
+    <item id="2" isCorrect="false">protected</item>
+    <item id="3" isCorrect="true">public</item>
+    <item id="4" isCorrect="false">private</item>
+  </question.choice>
+</slide.quiz>

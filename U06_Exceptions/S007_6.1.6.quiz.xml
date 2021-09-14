@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="aacb5767-bc14-497e-bc4e-3652ed670cd8">
+  <scoring tries="3"/>
+  <question.match id="exceptions" maxScore="3">
+    <text>Сопоставьте значения из двух списков</text>
+    <match id="1">
+      <fixed>java.lang.Throwable</fixed>
+      <movable>Базовый класс для всех исключений</movable>
+    </match>
+    <match id="2">
+      <fixed>java.lang.Exception</fixed>
+      <movable>Базовый класс для проверяемых исключений, соответствующих ошибкам программной логики</movable>
+    </match>
+    <match id="3">
+      <fixed>java.lang.RuntimeException</fixed>
+      <movable>Базовый класс для непроверяемых исключений, соответствующих ошибкам программной логики</movable>
+    </match>
+    <match id="4">
+      <fixed>java.lang.Error</fixed>
+      <movable>Базовый класс для исключений, соответствующих ошибкам виртуальной машины</movable>
+    </match>
+  </question.match>
+</slide.quiz>

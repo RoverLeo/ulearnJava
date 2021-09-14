@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="1.2.5 Контрольный вопрос" id="7e8faba3-e29a-4c46-a8d9-70de31cc6b7d">
+  <scoring tries="2"/>
+  <question.match id="performance" maxScore="1">
+    <text>Сопоставьте следующие аббревиатуры с их определениями.</text>
+    <match id="1">
+      <fixed>JDK</fixed>
+      <movable>Набор инструментов для разработки Java-программ, включая компилятор</movable>
+    </match>
+    <match id="2">
+      <fixed>JRE</fixed>
+      <movable>Набор инструментов для запуска Java-программ, включая виртуальную машину</movable>
+    </match>
+    <match id="3">
+      <fixed>JVM</fixed>
+      <movable>Виртуальная машина Java</movable>
+    </match>
+    <match id="4">
+      <fixed>JIT</fixed>
+      <movable>Подход к реализации виртуальной машины, при котором байткод не интерпретируется, а компилируется в машинный код для исполнения аппаратным процессором</movable>
+    </match>
+    <match id="5">
+      <fixed>JAR</fixed>
+      <movable>Формат архива, в который обычно упаковывают Java-программы и библиотеки</movable>
+    </match>
+  </question.match>
+</slide.quiz>

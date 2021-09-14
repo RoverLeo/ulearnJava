@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="2a8bb27c-102a-4ef9-9c7a-8025fbef717d">
+    <scoring tries="3"/>
+    <markdown>
+        Предположим, у нас есть параметризованный класс:
+    </markdown>
+    <code>
+        public class Example&lt;X&gt; {
+          ...
+        }
+    </code>
+    <markdown>
+        Что можно подставлять в качестве значения параметра X при использовании этого класса в программе?
+    </markdown>
+    <question.choice id="genericsType" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">значение X можно не указывать, т.е. использовать класс Example как обычный непараметризованный</item>
+        <item id="2" isCorrect="true">имя любого перечисления (например, DayOfWeek)</item>
+        <item id="3" isCorrect="false">имя любого примитивного типа (например, int)</item>
+        <item id="4" isCorrect="true">символ "?" или более сложное выражение с ключевыми словами extends и super</item>
+        <item id="5" isCorrect="false">ссылку на метод (например, Object::toString)</item>
+        <item id="6" isCorrect="true">имя любого класса (например, Object)</item>
+        <item id="7" isCorrect="false">значение примитивного типа (например, 42)</item>
+        <item id="8" isCorrect="true">имя любого интерфейса (например, CharSequence)</item>
+    </question.choice>
+</slide.quiz>
+

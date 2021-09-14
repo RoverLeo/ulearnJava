@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="2461089a-4c69-4d06-95dd-ea00b4bae007">
+    <scoring tries="3"/>
+    <markdown>
+        Чем коллекции отличаются от массивов?
+    </markdown>
+    <question.choice id="collectionArray" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">Коллекции могут содержать только объекты, а массивы могут содержать и примитивы.</item>
+        <item id="2" isCorrect="true">Коллекции можно сравнивать по содержимому обычным методом equals(), а для сравнения массивов используется внешний утилитный метод Arrays.equals().</item>
+        <item id="3" isCorrect="false">Массивы можно использовать в цикле foreach, а коллекции нельзя.</item>
+        <item id="4" isCorrect="true">Коллекции могут динамически менять размер, а размер массива фиксируется при создании.</item>
+        <item id="5" isCorrect="true">Массивы встроены в язык, а коллекции — обычные классы стандартной библиотеки.</item>
+    </question.choice>
+</slide.quiz>

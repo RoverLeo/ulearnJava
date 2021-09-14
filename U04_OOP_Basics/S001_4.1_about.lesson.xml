@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Основы ООП" id="7ba4f23d-4f76-46a7-a330-f28639d3f066">
+  <markdown>
+    Видео-материалы модулей ООП [полностью](https://www.youtube.com/watch?v=BV3__5u22h0)
+
+    Презентация ([скачать](https://stepik.org/media/attachments/lesson/12764/module3.pdf))
+
+    + О чем этот модуль
+    + Эволюция подходов к разработке ПО
+    + Что такое объект
+    + Инкапсуляция
+    + Наследование и полиморфизм
+    + Пример использования ООП
+    + Так что насчет Java?
+    + Вопрос
+    + Вопрос
+  </markdown>
+</slide>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="5.1 Интерфейсы" id="24202141-56d0-48e4-a32d-d740f4b499e6">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Здесь должен быть текст задачи
+
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S15.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru --class-path=./classpath/* ./S15.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

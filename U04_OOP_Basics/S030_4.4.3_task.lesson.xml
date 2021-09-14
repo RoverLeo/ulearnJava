@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="4.3 Абстрактные классы" id="658bad39-cc8a-443f-aa46-2a85661c3d68">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Напишите классы абстрактный класс `Client` с методами `getAmount()`, `put()` и `take()`.
+    А также классы наследники:
+
+    *У **PhysicalPerson** пополнение и списание происходит без комиссии. Если передать в метод пополнения отрицательное значение, сумма на счёте не должна измениться. При попытке снять сумму больше, чем есть на счете, сумма не списывается со счёта, сумма на счёте не изменяется.
+
+    *У **LegalPerson** — все условия **PhysicalPerson** и дополнительно снятие с комиссией 1%.
+
+    *У **IndividualBusinessman** — все условия **PhysicalPerson** и дополнительно, пополнение с комиссией 1%, если сумма меньше 1 000 рублей. И пополнение с комиссией 0,5%, если сумма больше либо равна 1 000 рублей.
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S030.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea --class-path=./classpath/* ./S030.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

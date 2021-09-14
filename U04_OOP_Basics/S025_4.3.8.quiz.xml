@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="0c4ce4a7-d8d8-4942-8001-c3bb18d7c594">
+  <scoring tries="2"/>
+  <markdown>Выберите верные утверждения про модификатор static.</markdown>
+  <question.choice id="compileRun" shuffle="true" multiple="true" maxScore="1">
+    <text>Тест — Выберите один или несколько вариантов из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">К полям и методам, имеющим модификатор static, можно обращаться, не создавая экземпляр содержащего их класса.</item>
+    <item id="2" isCorrect="false">Поле класса, объявленное с модификатором static, — это константа, т.е. значение не может меняться.</item>
+    <item id="3" isCorrect="false">Класс, объявленный с модификатором static, может иметь только статические методы.</item>
+    <item id="4" isCorrect="true">Вложенный класс, объявленный с модификатором static, теряет возможность обращаться к нестатическим членам внешнего класса.</item>
+  </question.choice>
+</slide.quiz>

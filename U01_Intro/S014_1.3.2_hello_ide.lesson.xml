@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="1.3.2 Повторяем опыт с Hello World" id="8d21a5cc-3bf0-4ba2-9df8-d184ed041d0e">
+  <youtube>BkZ6pAFdKbY</youtube>
+  <markdown>
+        Более подробно о рекомендуемом стиле кода можно почитать здесь:
+
+        * Упомянутый в видео старый документ [Code Conventions for the Java Programming Language](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html)
+        * Черновик нового документа [Java Style Guidelines](http://cr.openjdk.java.net/~alundblad/styleguide/)
+    </markdown>
+</slide>

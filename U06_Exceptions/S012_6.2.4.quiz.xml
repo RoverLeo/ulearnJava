@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="7202cf4a-a3f3-4d07-8c06-2857d5ec596c">
+  <scoring tries="3"/>
+  <markdown>Рассмотрим пример кода:</markdown>
+  <code xml:space="preserve">
+    try {
+      // код, бросающий исключения
+    } catch (RuntimeException e) {
+      // ...
+    } catch (Exception e) {
+      // ...
+    } catch (Error e) {
+      // ...
+    } finally {
+      // ...
+    }
+	</code>
+  <markdown>Предположим, что во время исполнения программы в теле блока try было выброшено исключение типа java.lang.IllegalStateException. Какие блоки catch-finally будут выполнены?</markdown>
+  <question.choice id="compileRun" shuffle="true" multiple="true" maxScore="1">
+    <text>Тест — Выберите один или несколько вариантов из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">catch (Exception e)</item>
+    <item id="2" isCorrect="false">catch (Error e)</item>
+    <item id="3" isCorrect="true">finally</item>
+    <item id="4" isCorrect="true">catch (RuntimeException e)</item>
+  </question.choice>
+</slide.quiz>

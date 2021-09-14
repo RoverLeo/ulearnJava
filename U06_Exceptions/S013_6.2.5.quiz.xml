@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="42a7f55b-f079-40c6-894a-d7023167f787">
+  <scoring tries="2"/>
+  <markdown>Рассмотрим пример кода:</markdown>
+  <code xml:space="preserve">
+    try {
+      // ...
+    } catch (Exception e) {
+      // ...
+    } finally {
+      // ...
+    }
+	</code>
+  <markdown>При каких условиях блок finally не будет выполнен? Можно выбрать несколько вариантов.</markdown>
+  <question.choice id="compileRun" shuffle="true" multiple="true" maxScore="1">
+    <text>Тест — Выберите один или несколько вариантов из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">Если в блоке catch при обработке исключения случилось другое исключение.</item>
+    <item id="2" isCorrect="false">Если в блоке try брошено исключение, которое обработано блоком catch.</item>
+    <item id="3" isCorrect="true">Если во время исполнения блока try виртуальная машина "выполнила недопустимую операцию и будет закрыта".</item>
+    <item id="4" isCorrect="false">Если в блоке try выполняется оператор break.</item>
+    <item id="5" isCorrect="true">Если в блоке try вызван System.exit(0).</item>
+    <item id="6" isCorrect="false">Если в блоке try выполняется оператор return.</item>
+  </question.choice>
+</slide.quiz>

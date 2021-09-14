@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="9b08eaad-edc3-4224-b2b5-8a3bdb1917b1">
+  <scoring tries="2"/>
+  <markdown>Какую кодировку будут использовать классы java.io.InputStreamReader и java.io.OutputStreamWriter для преобразования байт в символы и обратно, если кодировка не будет передана в конструктор?</markdown>
+  <question.choice id="ioCharset" multiple="false" shuffle="true" maxScore="1">
+    <text>Выберите один вариант из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">Всегда ASCII</item>
+    <item id="2" isCorrect="true">Зависит от ОС, настроек и параметров запуска JVM</item>
+    <item id="3" isCorrect="false">Всегда Windows-1251</item>
+    <item id="4" isCorrect="false">Всегда UTF-8</item>
+  </question.choice>
+</slide.quiz>
+

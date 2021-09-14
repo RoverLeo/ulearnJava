@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="2.1 Простой калькулятор" id="2905e7cb-7f0e-496b-bc61-057c1df444eb">
+  <scoring group="homework" passedTestsScore="1" codeReviewScore="4"/>
+  <markdown>
+    Необходимо реализовать два метода:
+
+    * `calculate()` - принимает на вход два числа и знак операции, производит операцию и возвращает результат типа float
+
+    * `getMinimalType()` - В качестве аргумента функции передается строка, содержащая целое число. Определить самый наименьший целочисленный тип, к которому можно привести это число.
+    Примеры:
+
+        Ввод: "5", Вывод: "byte"
+
+        Ввод: "-35000", Вывод: "int"
+
+        Ввод: "512", Вывод: "short"
+
+        Ввод: "2500000000", Вывод: "long"
+
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S019.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru --class-path=./classpath/* ./S019.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

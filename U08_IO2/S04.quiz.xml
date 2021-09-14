@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="a3dd87e1-c140-44de-85e6-e87a15b0519e">
+    <scoring tries="3"/>
+    <markdown>Какие задачи не решаются средствами стандартной библиотеки Java и поэтому требуют запуска внешних процессов при помощи ProcessBuilder? (Можно выбрать несколько вариантов.)</markdown>
+    <question.choice id="io2Process" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="false">Распаковка ZIP-архива</item>
+        <item id="2" isCorrect="false">Установка TCP-соединения с удаленным компьютером</item>
+        <item id="3" isCorrect="true">Запуск и остановка служб ОС</item>
+        <item id="4" isCorrect="true">Форматирование диска</item>
+        <item id="5" isCorrect="false">Получение информации о владельце файла и его правах</item>
+        <item id="6" isCorrect="false">Удаление непустой директории</item>
+    </question.choice>
+</slide.quiz>
+

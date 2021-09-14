@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="1716835d-7fe4-4b0f-bb70-96e908ff9730">
+  <scoring tries="3"/>
+  <markdown>Какой тип имеет литерал 0x0bp3?</markdown>
+  <markdown>Представьте, что вы пишите _&lt;type&gt; a = 0x0bp3;_</markdown>
+  <markdown>Подробно про литералы можно прочитать в [официальной документации](https://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.10).</markdown>
+  <question.choice id="intsize" shuffle="true" maxScore="1">
+    <text>Выберите один вариант из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">double</item>
+    <item id="2" isCorrect="false">float</item>
+    <item id="3" isCorrect="false">short</item>
+    <item id="4" isCorrect="false">int</item>
+    <item id="5" isCorrect="false">char</item>
+  </question.choice>
+</slide.quiz>

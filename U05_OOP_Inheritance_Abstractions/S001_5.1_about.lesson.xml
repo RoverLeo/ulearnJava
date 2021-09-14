@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Наследование. Класс Object" id="ffce7c1a-de68-4e52-9398-7179d5ea366e">
+  <markdown>
+    Видео-материалы модулей ООП [полностью](https://www.youtube.com/watch?v=BV3__5u22h0)
+
+    Презентация ([скачать](https://stepik.org/media/attachments/lesson/12764/module3.pdf))
+
+    + Наследование, возможности переопределения
+    + Вопрос
+    + Конструктор класса-наследника
+    + Класс Object. Методы toString(), equals(), hashCode()
+    + Пример: семейство геометрических фигур
+    + О правильном использовании наследования
+    + Вопрос
+  </markdown>
+</slide>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="d6389dd9-ceba-4f25-aa1e-771bd11de0bf">
+  <scoring tries="5"/>
+  <markdown>Предположим, у нас есть экземпляр Path, содержащий путь к файлу на реальной или виртуальной файловой системе. Как правильно получить InputStream для чтения содержимого этого файла? (Можно выбрать несколько вариантов.)</markdown>
+  <question.choice id="ioByteStream" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">new FileInputStream(path.toFile())</item>
+    <item id="2" isCorrect="true">Files.newInputStream(path)</item>
+    <item id="3" isCorrect="false">new FileInputStream(path)</item>
+    <item id="4" isCorrect="false">Paths.newInputStream(path)</item>
+  </question.choice>
+</slide.quiz>
+

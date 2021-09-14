@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="ca3b88fe-63d0-40b9-8a5f-2f3ab4389d05">
+  <scoring tries="5"/>
+  <markdown>В чем отличие классов java.io.InputStream и java.io.Reader? (Можно выбрать несколько вариантов.)</markdown>
+  <question.choice id="ioReader" multiple="true" shuffle="true" maxScore="3">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">InputStream — устаревший класс, Reader — современный.</item>
+    <item id="2" isCorrect="false">Методы InputStream бросают исключение java.io.IOException, методы Reader — нет.</item>
+    <item id="3" isCorrect="false">InputStream работает на уровне символов Unicode, Reader — на уровне байт.</item>
+    <item id="4" isCorrect="false">Методы Reader бросают исключение java.io.IOException, методы InputStream — нет.</item>
+    <item id="5" isCorrect="false">Reader — устаревший класс, InputStream — современный.</item>
+    <item id="6" isCorrect="true">Reader работает на уровне символов Unicode, InputStream — на уровне байт.</item>
+  </question.choice>
+</slide.quiz>
+

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="3.2 Двумерные массивы" id="489f9569-dc57-414e-8a67-5e1728afcbd7">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Реализуйте методы:
+
+    * `getTwoDimensionalArray`, который должен создать двумерный массив размера size (нечетное число), на диагоналях которого должны быть символы **Х**, в остальных ячейках **пробел**.
+
+    * `getStringArray`, который принимает в себя двумерный массив символов и возвращает этот двумерный массив в виде строки.
+    Если распечатать массив сформированный методом `getTwoDimensionalArray` с аргументом 7, то получим:
+
+    **X**     **X**
+     **X**   **X**
+      **X** **X**
+       **X**
+      **X** **X**
+     **X**   **X**
+    **X**     **X**
+
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S018.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru --class-path=./classpath/* ./S018.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="Задача 11.2" id="36f0d946-a7f8-4f20-bd8b-465b8e336aaa">
+    <scoring group="homework" passedTestsScore="0" codeReviewScore="10"/>
+    <defaultIncludeCodeFile>../_Code.java</defaultIncludeCodeFile>
+    <markdown>
+        ###Задание:
+
+        Эта программа предназначена для того, чтобы выполнить 30 долгих и ресурсоемких задач.
+        Для ускорения процесса программист использовал `ThreadPoolExecutor`.
+        Так как данные для каждой задачи занимают много оперативной памяти, он ограничил
+        количество задач в очереди до 3.
+        Но что-то пошло не так, и программа отказывается выполнять все задачи.
+        Исправьте код так, чтобы все 30 задач выполнились в 3 потока, и цикл создания задач не переполнял очередь задач.
+
+        Выложите исправленный код на github и вставьте в поле ссылку на него.
+
+        <code language="java">
+            import java.util.concurrent.LinkedBlockingQueue;
+            import java.util.concurrent.ThreadPoolExecutor;
+            import java.util.concurrent.TimeUnit;
+            import java.util.concurrent.atomic.AtomicInteger;
+
+            public class PoolExample {
+
+                public static void main(String[] args) throws InterruptedException {
+
+                    // создаем пул для выполнения наших задач
+                    //   максимальное количество созданных задач - 3
+                    ThreadPoolExecutor executor = new ThreadPoolExecutor(
+                            // не изменяйте эти параметры
+                            3, 3, 1, TimeUnit.SECONDS, new LinkedBlockingQueue&lt;&gt;(3));
+
+                    // сколько задач выполнилось
+                    AtomicInteger count = new AtomicInteger(0);
+
+                    // сколько задач выполняется
+                    AtomicInteger inProgress = new AtomicInteger(0);
+
+                    // отправляем задачи на выполнение
+                    for (int i = 0; i &lt; 30; i++) {
+                        final int number = i;
+                        Thread.sleep(10);
+
+                        System.out.println("creating #" + number);
+                        executor.submit(() -> {
+                            int working = inProgress.incrementAndGet();
+                            System.out.println("start #" + number + ", in progress: " + working);
+                            try {
+                                // тут какая-то полезная работа
+                                Thread.sleep(Math.round(1000 + Math.random() * 2000));
+                            } catch (InterruptedException e) {
+                                // ignore
+                            }
+                            working = inProgress.decrementAndGet();
+                            System.out.println("end #" + number + ", in progress: " + working + ", done tasks: " + count.incrementAndGet());
+                            return null;
+                        });
+                    }
+                }
+            }
+        </code>
+    </markdown>
+    <exercise.file>
+        <initialCode>https://github.com/username/javatech102</initialCode>
+        <hideExpectedOutput>true</hideExpectedOutput>
+        <comment>Принято</comment>
+        <expected>github.com</expected>
+        <solution>Main</solution>
+    </exercise.file>
+</slide.exercise>

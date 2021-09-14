@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="c98e729b-fd81-459a-9514-e0b3afaca13d">
+    <scoring tries="3"/>
+    <markdown>В чем разница между классами ввода-вывода, лежащими в пакетах java.io (такими как InputStream, OutputStream, Reader, Writer) и java.nio (такими как Channel, ByteBuffer)? (Можно выбрать несколько вариантов.)</markdown>
+    <question.choice id="io2Nio" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="false">Классы java.io предоставляют более низкоуровневый интерфейс, пользуясь которым можно писать более эффективные и масштабируемые программы.</item>
+        <item id="2" isCorrect="true">Классы java.nio предоставляют более низкоуровневый интерфейс, пользуясь которым можно писать более эффективные и масштабируемые программы.</item>
+        <item id="3" isCorrect="false">Классы java.io поддерживают неблокирующий ввод-вывод, а java.nio — блокирующий.</item>
+        <item id="4" isCorrect="true">Классы java.nio поддерживают неблокирующий ввод-вывод, а java.io — блокирующий.</item>
+        <item id="5" isCorrect="false">Классы java.io являются устаревшими, рекомендуется использовать java.nio.</item>
+        <item id="6" isCorrect="false">Классы java.nio являются устаревшими, рекомендуется использовать java.io.</item>
+        <item id="7" isCorrect="false">Классы java.io бросают java.io.IOException, классы java.nio бросают java.nio.NIOException.</item>
+    </question.choice>
+</slide.quiz>
+

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="7089b1bf-f6ee-48a6-befb-890e63a5cf2b">
+  <scoring tries="2"/>
+  <markdown>Укажите пары эквивалентных булевских операторов.</markdown>
+  <markdown>Операторы эквивалентны, если их [таблицы истинности](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0_%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8) совпадают, т.е. для любой пары аргументов оба оператора дают один и тот же результат.</markdown>
+  <markdown>Если ответ не очевиден, то составьте таблицы истинности для всех упомянутых операторов и сравните их.</markdown>
+  <question.choice id="compileRun" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">&amp; и ==</item>
+    <item id="2" isCorrect="false">| и !=</item>
+    <item id="3" isCorrect="true">| и ||</item>
+    <item id="4" isCorrect="true">^ и !=</item>
+  </question.choice>
+</slide.quiz>

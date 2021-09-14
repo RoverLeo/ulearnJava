@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Логгирование" id="9a170cce-6c72-48f4-8911-431f22c960f8">
+  <markdown>
+    + Класс Logger
+    + Вывод сообщений в лог
+    + Тонкая настройка: Handler, Formatter
+    + Пример использования
+    + Вопрос
+    + Вопрос
+  </markdown>
+</slide>

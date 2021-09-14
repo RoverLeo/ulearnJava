@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="0c31c3af-78bc-46c9-9d8b-f1b5624d6f5f">
+  <scoring tries="2"/>
+  <markdown>Почему рекомендуется выводить отладочную информацию при помощи класса Logger, а не через System.out или System.err?</markdown>
+  <question.choice id="compileRun" shuffle="true" multiple="true" maxScore="3">
+    <text>Тест — Выберите один или несколько вариантов из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">Logger дает возможность гибко настраивать формат и место записи сообщений без изменения программы.</item>
+    <item id="2" isCorrect="true">Logger позволяет менять детальность логгирования, не прибегая к if'ам в коде.</item>
+    <item id="3" isCorrect="true">Logger поддерживает локализацию отладочных сообщений.</item>
+    <item id="4" isCorrect="false">Logger выводит текстовые сообщения более эффективно, чем System.out и System.err.</item>
+    <item id="5" isCorrect="false">Logger сообщает об ошибках с уровнем WARNING и выше виртуальной машине, чтобы она могла их обработать.</item>
+  </question.choice>
+</slide.quiz>

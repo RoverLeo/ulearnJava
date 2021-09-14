@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="3.1 Массивы" id="f49ab299-576b-4aa0-a893-6bd0d57f5fa0">
+  <scoring group="homework" passedTestsScore="2" codeReviewScore="8"/>
+  <markdown>
+    Необходимо реализовать два метода:
+
+    * метод `generatePatietsTemperatures()`, который должен сгенерировать массив **float**, содержащий значения температур пациентов от **32** до **40** градусов.
+
+    * метод `getReport()`, который составляет строку с отчётом по значениям температур в массиве с пациентами: собирает в строку список температур всех пациентов, рассчитывает среднее арифметическое значение температуры и считает количество здоровых пациентов с температурой от **36,2** до **36,9** градусов.
+
+  </markdown>
+  <exercise.universal type="check-exit-code" exerciseDirName="task" noStudentZip="true">
+    <checkForPlagiarism>false</checkForPlagiarism>
+    <hideSolutions>true</hideSolutions>
+    <hideExpectedOutput>false</hideExpectedOutput>
+    <userCodeFile>S017.java</userCodeFile>
+    <dockerImageName>algorithms-sandbox</dockerImageName>
+    <run>java -ea -Duser.country=RU -Duser.language=ru --class-path=./classpath/* ./S017.java</run>
+    <region>Task</region>
+  </exercise.universal>
+</slide.exercise>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="33c0c9e3-1ac8-45ae-a2f4-af998716cc55">
+    <scoring tries="2"/>
+    <markdown>
+        Какая базовая директория используется для превращения относительного пути к файлу или директории на диске в абсолютный путь? Речь о методах File.getAbsolutePath(), File.getAbsoluteFile() и Path.toAbsolutePath().
+    </markdown>
+    <question.choice id="ioPath" multiple="false" shuffle="true" maxScore="1">
+        <text>Выберите один вариант из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">Текущая директория Java-процесса, т.е. в какой директории введена команда "java -jar ...".</item>
+        <item id="2" isCorrect="false">Корневая директория файловой системы (C:\ — под Windows, / — под Unix)</item>
+        <item id="3" isCorrect="false">Директория, где находится JAR, из которого запущена программа.</item>
+        <item id="4" isCorrect="false">Директория, где установлен JDK.</item>
+    </question.choice>
+</slide.quiz>
+

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="Задача 6.2" id="e28ada7e-ddd4-40a9-8128-b8c3907c51f1">
+  <scoring group="homework" passedTestsScore="0" codeReviewScore="3"/>
+  <defaultIncludeCodeFile>../_Code.java</defaultIncludeCodeFile>
+  <markdown>
+    [Описание задачи](https://github.com/naumen-student/ulearn-me-course-java/tree/master/06-java-exceptions/task02)
+  </markdown>
+  <exercise.file>
+    <initialCode>вставьте ссылку на Pull Request</initialCode>
+    <hideExpectedOutput>true</hideExpectedOutput>
+    <hint>Используйте функцию гитхаба New pull request</hint>
+    <comment>Принято</comment>
+    <expected>github.com</expected>
+    <solution>Main</solution>
+  </exercise.file>
+</slide.exercise>

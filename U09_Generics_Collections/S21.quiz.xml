@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="92dab5b4-b074-409a-ba83-74eb012e5468">
+    <scoring tries="3"/>
+    <markdown>
+        Как должны быть связаны между собой реализации equals() и hashCode() у класса, чтобы экземпляры этого класса можно было спокойно хранить в HashSet?
+    </markdown>
+    <question.choice id="collectionHashCode" multiple="false" shuffle="true" maxScore="1">
+        <text>Выберите один вариант из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="false">если a.hashCode() == b.hashCode(), то a.equals(b)</item>
+        <item id="2" isCorrect="false">a.equals(b) тогда и только тогда, когда a.hashCode() == b.hashCode()</item>
+        <item id="3" isCorrect="false">если !a.equals(b), то a.hashCode() != b.hashCode()</item>
+        <item id="4" isCorrect="true">если a.equals(b), то a.hashCode() == b.hashCode()</item>
+    </question.choice>
+</slide.quiz>

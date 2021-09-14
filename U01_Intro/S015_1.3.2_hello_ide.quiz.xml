@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="1.3.2 Контрольный вопрос" id="469508d2-5c58-4bf5-af94-9d66c49dd82c">
+  <scoring tries="2"/>
+  <question.choice id="javadoc" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите из приведенных ниже комментариев те, которые являются JavaDoc-комментариями.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">/** Is this a javadoc? */</item>
+    <item id="2" isCorrect="false">/* Is this a javadoc? */</item>
+    <item id="3" isCorrect="false">/*! Is this a javadoc? */</item>
+    <item id="4" isCorrect="false">/// Is this a javadoc?</item>
+  </question.choice>
+</slide.quiz>

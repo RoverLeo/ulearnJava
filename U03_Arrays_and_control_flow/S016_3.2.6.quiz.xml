@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="7a7a6b69-2de2-4b7f-87d5-170acc94d657">
+  <scoring tries="2"/>
+  <markdown>Эквивалентны ли два следующих цикла?</markdown>
+  <code xml:space="preserve">
+for (int i = 0; i &lt; 100; i++) {
+    // тело цикла
+}
+	</code>
+  <markdown>и</markdown>
+  <code xml:space="preserve">
+for (int i = 0; i &lt; 100; ) {
+    // тело цикла
+    i++;
+}
+  </code>
+  <question.choice id="compileRun" shuffle="true" maxScore="1">
+    <text>Выберите один вариант из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">Не эквивалентны, когда в теле цикла используется continue</item>
+    <item id="2" isCorrect="false">Не эквивалентны, когда в теле цикла есть другой вложенный цикл</item>
+    <item id="3" isCorrect="false">Всегда эквивалентны</item>
+    <item id="4" isCorrect="false">Не эквивалентны, когда в теле цикла используется break</item>
+  </question.choice>
+</slide.quiz>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="26d4de96-3668-4dd7-a45b-fa4a14e492c7">
+  <scoring tries="3"/>
+  <markdown>Укажите размер целочисленного типа int в Java.</markdown>
+  <question.choice id="intsize" shuffle="true" maxScore="1">
+    <text>Выберите один вариант из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">32 бита</item>
+    <item id="2" isCorrect="false">Известно только, что sizeof(short) &lt;= sizeof(int) &lt;= sizeof(long). Конкретный размер зависит от платформы.</item>
+    <item id="3" isCorrect="false">16 бит</item>
+    <item id="4" isCorrect="false">Размер динамически изменяется, чтобы вместить любое нужное пользователю целое число.</item>
+  </question.choice>
+</slide.quiz>

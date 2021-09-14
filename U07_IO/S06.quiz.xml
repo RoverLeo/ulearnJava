@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="c71fcb04-6a3f-4e0e-8bff-1e7d8e67a6ef">
+  <scoring tries="3"/>
+  <markdown>Найдите среди приведенных путей два эквивалентных, то есть указывающих на один и тот же файл.</markdown>
+  <question.choice id="ioSamePath" multiple="true" shuffle="true" maxScore="3">
+    <text>Выберите один или несколько вариантов из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">a\b\c\file.txt</item>
+    <item id="2" isCorrect="false">a\b\..\file.txt</item>
+    <item id="3" isCorrect="false">a\..\b\c\file.txt</item>
+    <item id="4" isCorrect="false">a\.\b\..\c\.\file.txt</item>
+    <item id="5" isCorrect="true">.\a\b\..\b\c\.\file.txt</item>
+  </question.choice>
+</slide.quiz>
+

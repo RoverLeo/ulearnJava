@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="4616f980-05b7-4d28-b941-3da1954951b6">
+    <scoring tries="3"/>
+    <markdown>
+        Отметьте галочками промежуточные операции со стримом.
+    </markdown>
+
+    <question.choice id="funcInst" multiple="true" shuffle="true" maxScore="3">
+        <text>Выберите один или несколько вариантов из списка.</text>
+        <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+        <item id="1" isCorrect="true">flatMap</item>
+        <item id="2" isCorrect="false">toArray</item>
+        <item id="3" isCorrect="true">map</item>
+        <item id="4" isCorrect="false">collect</item>
+        <item id="5" isCorrect="false">forEach</item>
+        <item id="6" isCorrect="true">filter</item>
+        <item id="7" isCorrect="true">peek</item>
+        <item id="8" isCorrect="false">count</item>
+        <item id="9" isCorrect="true">sorted</item>
+        <item id="10" isCorrect="true">limit</item>
+    </question.choice>
+</slide.quiz>
+

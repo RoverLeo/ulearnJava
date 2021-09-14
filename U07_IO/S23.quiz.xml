@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="9c5b368b-07c8-448b-ae0f-9b8f0e918650">
+  <scoring tries="2"/>
+  <markdown>
+    Рассмотрим следующий код:
+  </markdown>
+  <code language="java">
+    Writer writer = new OutputStreamWriter(outputStream, StandardCharsets.US_ASCII);
+  </code>
+  <markdown>
+    Что будет фактически записано в outputStream, если мы попытаемся вывести через writer символ, не представимый в
+    указанной ему кодировке ASCII? Например, какой-нибудь иероглиф или символ кириллицы.
+  </markdown>
+  <question.choice id="ioAscii" multiple="false" shuffle="true" maxScore="1">
+    <text>Выберите один вариант из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">Байт 0</item>
+    <item id="2" isCorrect="false">Ни одного байта выведено не будет</item>
+    <item id="3" isCorrect="true">Байт 63 (ASCII-код символа '?')</item>
+    <item id="4" isCorrect="false">Будет брошено исключение</item>
+    <item id="5" isCorrect="false">Байт 32 (ASCII-код пробела)</item>
+  </question.choice>
+</slide.quiz>
+

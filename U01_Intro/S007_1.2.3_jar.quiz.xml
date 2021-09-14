@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="1.2.3 Контрольный вопрос" id="f54142b6-2844-456c-be8a-90ff897bb9d4">
+  <scoring tries="2"/>
+  <question.choice id="main" multiple="false" shuffle="true" maxScore="1">
+    <text>Предположим, вы написали программу, состоящую из двух классов, и в каждом классе объявили точку входа — метод main. Что из этого выйдет?</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">Программа скомпилируется, но не запустится</item>
+    <item id="2" isCorrect="true">Программа скомпилируется и запустится. Неоднозначности не возникнет, поскольку при запуске всегда явно указывается класс, в котором JVM должна искать метод main</item>
+    <item id="3" isCorrect="false">Программа не скомпилируется</item>
+  </question.choice>
+</slide.quiz>

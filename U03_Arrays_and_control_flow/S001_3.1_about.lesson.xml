@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Массивы и строки" id="8993df2e-6d25-4f47-b01c-aa3b5591fb0d">
+  <markdown>
+    Видео-материалы этого и предыдущего модуля [полностью](https://www.youtube.com/watch?v=oaZqTPDIEbE)
+
+    Презентация ([скачать](https://stepik.org/media/attachments/lesson/12759/module2.pdf))
+
+    + Про выделение и освобождение памяти
+    + Массивы
+    + Varargs
+    + Сравнение массивов
+    + Печать массивов
+    + Строки
+    + Вопрос
+    + Вопрос
+  </markdown>
+</slide>

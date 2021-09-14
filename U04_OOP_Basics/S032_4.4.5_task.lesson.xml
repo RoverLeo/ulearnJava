@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.exercise xmlns="https://ulearn.me/schema/v2" title="Задача 4.5" id="997c3742-2c49-4143-ad5b-9440a337f4e4">
+  <scoring group="homework" passedTestsScore="0" codeReviewScore="4"/>
+  <defaultIncludeCodeFile>../_Code.java</defaultIncludeCodeFile>
+  <markdown>
+    [Описание задачи](https://github.com/naumen-student/ulearn-me-course-java/tree/master/04-java-oop-basic/task05)
+  </markdown>
+  <exercise.file>
+    <initialCode>вставьте ссылку на Pull Request</initialCode>
+    <hideExpectedOutput>true</hideExpectedOutput>
+    <hint>Используйте функцию гитхаба New pull request</hint>
+    <comment>Принято</comment>
+    <expected>github.com</expected>
+    <solution>Main</solution>
+  </exercise.file>
+</slide.exercise>

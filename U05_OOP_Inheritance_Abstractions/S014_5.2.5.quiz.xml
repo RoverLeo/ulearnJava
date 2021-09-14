@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="ba275a09-fd2b-4aec-a2f2-9f794c0aa216">
+  <scoring tries="2"/>
+  <markdown>Укажите необходимое и достаточное условие для того, чтобы интерфейс можно было инстанцировать при помощи лямбда-выражения.</markdown>
+  <question.choice id="compileRun" shuffle="true" maxScore="3">
+    <text>Тест — Выберите один или несколько вариантов из списка</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">Интерфейс должен быть из стандартной библиотеки, и в JavaDoc'е к нему должна быть указана такая возможность.</item>
+    <item id="2" isCorrect="false">Ровно один метод интерфейса должен быть помечен аннотацией @FunctionalInterface.</item>
+    <item id="3" isCorrect="false">Интерфейс должен быть помечен аннотацией @FunctionalInterface.</item>
+    <item id="4" isCorrect="true">Интерфейс должен содержать ровно один абстрактный метод.</item>
+  </question.choice>
+</slide.quiz>

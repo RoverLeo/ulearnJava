@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="1.3.1 ﻿Выбираем среду разработки" id="7381b4c4-4b71-423b-bb64-9c67351d500a">
+  <youtube>jXF2RUGyrh0</youtube>
+  <markdown>
+        ### Ставим
+
+        Выберите и установите себе среду разработки. Ссылки для скачивания:
+
+        * IntelliJ IDEA — [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/)
+        * NetBeans — [https://netbeans.org/downloads/](https://netbeans.org/downloads/)
+        * Eclipse — [https://eclipse.org/downloads/](https://eclipse.org/downloads/)
+    </markdown>
+</slide>

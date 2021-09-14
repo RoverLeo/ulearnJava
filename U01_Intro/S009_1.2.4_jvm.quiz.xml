@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="1.2.4 Контрольный вопрос" id="2fe926c2-f943-4650-ae66-81e09694972e">
+  <scoring tries="2"/>
+  <question.choice id="jar" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите верные утверждения про формат JAR. Может быть выбрано несколько пунктов.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">Формат JAR основан на формате ZIP.</item>
+    <item id="2" isCorrect="false">В JAR-файл разрешено запаковывать только class-файлы.</item>
+    <item id="3" isCorrect="true">В JAR-архиве может быть специальный файл с метаданными — META-INF/MANIFEST.MF.</item>
+    <item id="4" isCorrect="false">Формат JAR основан на формате RAR.</item>
+  </question.choice>
+</slide.quiz>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="Управляющие конструкции" id="384e5657-43fb-4fc3-8632-0f23d632014f">
+  <markdown>
+    + Условные операторы
+    + Циклы
+    + Операторы break и continue
+    + Оператор return
+    + Вопрос
+    + Вопрос
+  </markdown>
+</slide>

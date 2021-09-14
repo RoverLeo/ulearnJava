@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="1.2.2 Контрольные вопросы" id="4a947b31-fa1f-4fa0-9152-85b0a11ca0f5">
+  <scoring tries="2"/>
+  <question.choice id="compileRun" multiple="true" shuffle="true" maxScore="1">
+    <text>Выберите правильные объявления метода main — такие, при которых программа успешно скомпилируется и запустится.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="false">static void main(String[] args)</item>
+    <item id="2" isCorrect="true">public static void main(String[] args)</item>
+    <item id="3" isCorrect="false">public static int main(String[] args)</item>
+    <item id="4" isCorrect="false">public void main(String[] args)</item>
+    <item id="5" isCorrect="false">public static void main()</item>
+  </question.choice>
+  <question.choice id="modifiers" multiple="false" shuffle="true" maxScore="1">
+    <text>Что произойдет, если объявить метод main с синтаксически корректной, но не поддерживаемой JVM комбинацией модификаторов, возвращаемого значения и параметров?</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">Программа скомпилируется, но при попытке запуска упадет с ошибкой.</item>
+    <item id="2" isCorrect="false">Программа не скомпилируется.</item>
+    <item id="3" isCorrect="false">Программа скомпилируется, запустится, но ничего не сделает.</item>
+  </question.choice>
+</slide.quiz>

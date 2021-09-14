@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide xmlns="https://ulearn.me/schema/v2" title="1.2.2  Компилируем и запускаем Hello World" id="1e8ce7ed-01a6-48c3-bc34-38fd9d989fa5">
+  <markdown>
+
+
+        ### Ставим JDK
+
+        На этом этапе потребуется скачать и установить Java Development Kit — набор инструментов для разработки программ на Java.
+
+        Вам пригодится следующая страница: http://www.oracle.com/technetwork/java/javase/downloads/index.html. Можете сразу открыть ее в новой вкладке.
+
+        При установке JDK отметьте пункт Source Code, чтобы были установлены исходники классов стандартной библиотеки. Удобно иметь их под рукой, чтобы заглядывать при необходимости.
+    </markdown>
+  <youtube>9sWQ7ZYGxs8</youtube>
+</slide>

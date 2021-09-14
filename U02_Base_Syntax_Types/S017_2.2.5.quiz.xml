@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slide.quiz xmlns="https://ulearn.me/schema/v2" title="Контрольный вопрос" id="9c8d52d4-6abf-46ba-846f-7e32efed14f3">
+  <scoring tries="2"/>
+  <markdown>Зачем в Java, объектно-ориентированном языке, есть примитивные типы, не являющиеся объектами? Ведь есть полноценные объекты-аналоги java.lang.Integer и т.п.</markdown>
+  <question.choice id="basictypes" shuffle="true" maxScore="1">
+    <text>Выберите один вариант из списка.</text>
+    <allowedMistakes checkedUnnecessary="0" notCheckedNecessary="0" />
+    <item id="1" isCorrect="true">Примитивные типы нужны для производительности вычислений. Работа с объектами намного медленнее.</item>
+    <item id="2" isCorrect="false">Примитивные типы — это просто синонимы для соответствующих ссылочных типов. Т.е. int — синоним для java.lang.Integer и т.п.</item>
+    <item id="3" isCorrect="false">Примитивные типы — пережиток ранних версий Java. Теперь их не могут убрать из-за обратной совместимости.</item>
+    <item id="4" isCorrect="false">Чтобы всех запутать.</item>
+  </question.choice>
+</slide.quiz>
